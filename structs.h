@@ -5,13 +5,13 @@
 typedef struct {
 	int x;
 	int y;
-} Coordenadas;
+} Coordenada;
 
 
 typedef struct {
 	int ancho;
 	int alto;
-	char **cells;
+	char **celdas;
 } Grid;
 
 typedef struct {
