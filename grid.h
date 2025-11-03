@@ -7,7 +7,7 @@ Grid* crear_grid(int ancho, int alto);
 
 void colocar_heroe(Grid *g, int x, int y);
 
-void colocar_mounstro(Grid *g, int x, int y);
+void colocar_monstruo(Grid *g, int x, int y);
 
 void print_grid(Grid *g);
 

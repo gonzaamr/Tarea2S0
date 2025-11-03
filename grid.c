@@ -27,13 +27,11 @@ void colocar_heroe(Grid *g, int x, int y) {
 	}
 }
 
-void colocar_mounstro(Grid *g, int x, int y) {
+void colocar_monstruo(Grid *g, int x, int y) {
 	if (x >= 0 && x < g->ancho && y >= 0 && y < g->alto) {
 		g->celdas[y][x] = 'M';
 	}
 }
-
-
 
 void print_grid(Grid *g){
 	for(int y = 0; y < g->alto; y++){
